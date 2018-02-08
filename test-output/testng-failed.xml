@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <parameter name="deviceID" value="d2"/>
+  <test name="Testd1(failed)" parallel="tests">
+    <parameter name="deviceID" value="d1"/>
+    <classes>
+      <class name="Day5_session3.driver_mortgage">
+        <methods>
+          <include name="LaunchApp"/>
+          <include name="LaunchApp"/>
+          <include name="EMICalc"/>
+        </methods>
+      </class> <!-- Day5_session3.driver_mortgage -->
+    </classes>
+  </test> <!-- Testd1(failed) -->
+  <test name="Testd2(failed)" parallel="tests">
+    <parameter name="deviceID" value="d2"/>
+    <classes>
+      <class name="Day5_session3.driver_mortgage">
+        <methods>
+          <include name="LaunchApp"/>
+          <include name="LaunchApp"/>
+          <include name="EMICalc"/>
+        </methods>
+      </class> <!-- Day5_session3.driver_mortgage -->
+    </classes>
+  </test> <!-- Testd2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
